@@ -1,8 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import LoginForm from '@/components/LoginForm.vue';
+import RegisterForm from '@/components/RegisterForm.vue';
 
 const routes = [
-    { path: '/', component: LoginForm }, // Utiliser LoginPage comme composant pour le chemin '/'
+    { path: '/', redirect: '/login' },  // Redirection vers /menu par défaut
+    { path: '/login', component: LoginForm },
+    { path: '/register', component: RegisterForm },
 ];
 
 const router = createRouter({

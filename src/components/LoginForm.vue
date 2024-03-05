@@ -7,10 +7,10 @@
           <div class="card-header pb-0">
             <ul class="nav nav-tabs justify-content-center border-0 m-0">
               <li class="nav-item">
-                <router-link to="/accounts/login/" class="nav-link">Login</router-link>
+                <router-link to="/login" class="nav-link">login</router-link> 
     <router-view /></li>
               <li class="nav-item">
-                <a class="nav-link" href="/accounts/register/">Register</a>
+                <router-link to="/register" class="nav-link">Register</router-link>   
               </li>
             </ul>
           </div>
