@@ -7,8 +7,8 @@
           <div class="card-header pb-0">
             <ul class="nav nav-tabs justify-content-center border-0 m-0">
               <li class="nav-item">
-                <a class="nav-link" href="/accounts/login/">Login</a>
-              </li>
+                <router-link to="/accounts/login/" class="nav-link">Login</router-link>
+    <router-view /></li>
               <li class="nav-item">
                 <a class="nav-link" href="/accounts/register/">Register</a>
               </li>
@@ -62,7 +62,7 @@
         <div class="col-sm-8">
           <img
             class="img-fluid rounded h-100 d-none d-sm-block"
-            src="assets\image\backg.jpg"
+            src="../assets/image/backg.jpg"
           />
         </div>
       </div>
@@ -78,7 +78,8 @@
   position: absolute;
   left: 0;
   top: 0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                      url('../assets/image/bg-auth.png');  
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
