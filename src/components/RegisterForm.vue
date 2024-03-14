@@ -75,7 +75,7 @@
                   </label>
                 </div>
                 <div class="mb-3">
-                  <button class="btn btn-primary ff-btn-primary col-lg-6 offset-lg-3" disabled="true" type="submit">Register</button>
+                   <router-link to="/selectprofile" class="btn btn-primary ff-btn-primary col-lg-6 offset-lg-3" disabled="true" id="registerButton">Register</router-link>
                 </div>
               </form>
             </div>
@@ -89,9 +89,20 @@
   </div>
 </template>
 
+
 <script>
 export default {
-  // Votre script Vue.js ici
+  mounted() {
+    // Sélectionnez la case à cocher et le bouton d'inscription
+    const agreeCheckbox = document.getElementById('flexCheckIndeterminate');
+    const registerButton = document.getElementById('registerButton');
+
+    // Écoutez les événements de clic sur la case à cocher
+    agreeCheckbox.addEventListener('click', function() {
+      // Activez ou désactivez le bouton d'inscription en fonction de l'état de la case à cocher
+      registerButton.disabled = !agreeCheckbox.checked;
+    });
+  }
 }
 </script>
 
