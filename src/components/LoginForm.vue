@@ -49,13 +49,12 @@
               >
 
               <div class="mb-3">
-                <button
-                  class="btn btn-primary ff-btn-primary col-lg-6 offset-lg-3 mt-2"
-                  type="submit"
-                >
-                  Connexion
-                </button>
-              </div>
+    <router-link to="/home" class="nav-link">
+        <button class="btn btn-primary ff-btn-primary col-lg-6 offset-lg-3 mt-2" type="submit">Connexion</button>
+    </router-link>
+    <router-view />
+</div>
+
             </form>
           </div>
         </div>
@@ -69,9 +68,6 @@
     </div>
   </div>
 </template>
-
-<script>
-</script>
 
 <style>
 .background-image {
@@ -98,3 +94,6 @@
   z-index: 0;
 }
 </style>
+<script>
+</script>
+
