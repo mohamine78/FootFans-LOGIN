@@ -1,5 +1,5 @@
 <template>
-  <section id="content">
+  <section id="content" style="background-color: rgb(219, 228, 231);">
     <a href="/" class="d-flex px-3">
       <img src="../assets/image/logo.png" width="70" height="70" />
     </a>
@@ -66,6 +66,22 @@ export default {
         { id: 165, name: "Ghana team", flag: "https://flags.fmcdn.net/data/flags/small/gh.png" },
         { id: 189, name: "Iran team", flag: "https://flags.fmcdn.net/data/flags/small/ir.png" },
         { id: 194, name: "Japan team", flag: "https://flags.fmcdn.net/data/flags/small/jp.png" },
+        { id: 219, name: "Mexico team", flag: "https://flags.fmcdn.net/data/flags/small/mx.png" },
+        { id: 216, name: "Morocco team", flag: "https://flags.fmcdn.net/data/flags/small/ma.png" },
+        { id: 241, name: "Netherlands team", flag: "https://flags.fmcdn.net/data/flags/small/nl.png" },
+        { id: 244, name: "Poland team", flag: "https://flags.fmcdn.net/data/flags/small/pl.png" },
+        { id: 246, name: "Portugal team", flag: "https://flags.fmcdn.net/data/flags/small/pt.png" },
+        { id: 247, name: "Qatar team", flag: "https://flags.fmcdn.net/data/flags/small/qa.png" },
+        { id: 107, name: "Saudi Arabia team", flag: "https://flags.fmcdn.net/data/flags/small/sa.png" },
+        { id: 261, name: "Senegal team", flag: "https://flags.fmcdn.net/data/flags/small/sn.png" },
+        { id: 262, name: "Serbia team", flag: "https://flags.fmcdn.net/data/flags/small/rs.png" },
+        { id: 143, name: "South Korea team", flag: "https://flags.fmcdn.net/data/flags/small/kr.png" },
+        { id: 299, name: "Spain team", flag: "https://flags.fmcdn.net/data/flags/small/es.png" },
+        { id: 273, name: "Switzerland team", flag: "https://flags.fmcdn.net/data/flags/small/ch.png" },
+        { id: 285, name: "Tunisia team", flag: "https://flags.fmcdn.net/data/flags/small/tn.png" },
+        { id: 158, name: "United States of America team", flag: "https://flags.fmcdn.net/data/flags/small/us.png" },
+        { id: 289, name: "Uruguay team", flag: "https://flags.fmcdn.net/data/flags/small/uy.png" },
+        { id: 296, name: "Wales team", flag: "https://flags.fmcdn.net/data/flags/small/gb-wls.png" },
         // Ajoutez les autres équipes ici...
       ],
       selectedTeams: [],
